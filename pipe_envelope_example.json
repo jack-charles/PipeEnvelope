@@ -1,0 +1,42 @@
+{
+    "Parameters": {
+        "name": "w/o Radial Stress",
+        "tubing_od": 5.5,
+        "tubing_id": 4.995,
+        "eccen": 0.875,
+        "Yp": 80000.0,
+        "Youngs_modulus": 30000000,
+        "poissons_ratio": 0.25,
+        "temperature": 75.0,
+        "radial_stress_query": "N",
+        "DF_burst_triaxial": 1.0,
+        "DF_tension_triaxial": 1.0,
+        "DF_burst": 1.0,
+        "DF_collapse": 1.0,
+        "DF_tension": 1.0
+    },
+
+    "Units": {
+        "system_name": "SPE",
+        "angle": "degree",
+        "area": "ft2",
+        "capacity": "bbl/ft",
+        "concentration": "pptg",
+        "density_gas": "gas sg",
+        "density_liquid": "ppg",
+        "density_solid": "ppg",
+        "diameter": "in",
+        "force": "lbf",
+        "length": "ft",
+        "mass": "lbm",
+        "mass_gradient": "lbm/ft",
+        "mass_rate": "lbm/min",
+        "permeability": "mD",
+        "pressure": "psi",
+        "pressure_gradient": "psi/ft",
+        "temperature": "F",
+        "velocity": "ft/s",
+        "volume": "bbl",
+        "volumetric_rate": "bbl/min"
+    }
+}
