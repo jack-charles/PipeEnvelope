@@ -2,26 +2,33 @@
 
 Von Mises Envelope for Tubulars
 
-$$
-Y_{p}=\sqrt{\frac{1}{2}\left[{\left({\sigma }_{z}-{\sigma }_{\theta }\right)}^{2}+{\left({\sigma }_{\theta }-{\sigma }_{r}\right)}^{2}+{\left({\sigma }_{r}-{\sigma }_{z}\right)}^{2}\right]+3{\tau }^{2}}
-$$
+$$Y_{p}=\sqrt{\frac{1}{2}\left[{\left({\sigma }_{z}-{\sigma }_{\theta }\right)}^{2}+{\left({\sigma }_{\theta }-{\sigma }_{r}\right)}^{2}+{\left({\sigma }_{r}-{\sigma }_{z}\right)}^{2}\right]+3{\tau }^{2}}$$
 
-Drop torque and expand
+Drop torque and expand	
 
 $$Y_{p}=\sqrt{{\sigma }_{z}^{2}+{\sigma }_{\theta }^{2}+{\sigma }_{r}^{2}-{\sigma }_{z}{\sigma }_{\theta }-{\sigma }_{\theta }{\sigma }_{r}-{\sigma }_{r}{\sigma }_{z}}$$
 
-For simple 2D solution in thin wall, assume no radial stress and simplify to	
+For simple 2D solution in thin wall, assume no radial stress and simplify to
+
 $$Y_{p}=\sqrt{{\sigma }_{z}^{2}-{\sigma }_{z}{\sigma }_{\theta }+{\sigma }_{\theta }^{2}}$$
 
 Rewrite as function of ${\sigma }_{z}$, 			
+
 $$f\left({\sigma }_{z}\right)=\frac{1}{2}{\sigma }_{\theta }\pm \frac{1}{2}\sqrt{4Y_{p}^{2}-3{\sigma }_{\theta }^{2}}$$
 
 First find extremes of envelope. Differentiate with respect to hoop stress and solve for 0 to determine inflection point. Similar, if term under radical is 0, then that implies an extreme also. 
 
- $$f\prime \left({\sigma }_{z}\right)=\frac{1}{2}+\frac{3}{2}\frac{-{\sigma }_{\theta }}{\sqrt{4Y_{p}^{2}-3{\sigma }_{\theta }^{2}}}=0$$    or  $${\sigma }_{\theta }=\frac{1}{\sqrt{3}}Y_{p}=0.5774{\ast Y}_{p}$$
+$$f\prime \left({\sigma }_{z}\right)=\frac{1}{2}+\frac{3}{2}\frac{-{\sigma }_{\theta }}{\sqrt{4Y_{p}^{2}-3{\sigma }_{\theta }^{2}}}=0$$
+or
+$${\sigma }_{\theta }=\frac{1}{\sqrt{3}}Y_{p}=0.5774{\ast Y}_{p}$$
 
 Substitute into $$f\prime \left({\sigma }_{z}\right)$$		
-$${\sigma }_{z}=\frac{1}{2}\frac{1}{\sqrt{3}}Y_{p}+\frac{1}{2}\sqrt{3}Y_{p}$$		or 	$${\sigma }_{z}=1.1547{\ast Y}_{p}$$		
+
+$${\sigma }_{z}=\frac{1}{2}\frac{1}{\sqrt{3}}Y_{p}+\frac{1}{2}\sqrt{3}Y_{p}$$
+
+or
+
+$${\sigma }_{z}=1.1547{\ast Y}_{p}$$		
 
 Note when radical is 0:	$${\sigma }_{\theta }=\frac{1}{2}{\sigma }_{z}$$	These two equations yield the point of maximum tensile stress 
 
