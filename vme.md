@@ -55,7 +55,7 @@ Create curve with following points, symmetrical about x=y
 |54.853	|-54.853	|-6615	|852771|	
 |95	|0	|0	|1476916|
 
-![Von Mises Envelope](\vme\vme_1.svg)
+![Von Mises Envelope](\images\vme_1.svg)
  
 # Combined loading burst with radial stresses
 Von Mises Envelope for Tubulars		
@@ -128,13 +128,13 @@ Solution method & notes
 
 Comparing VME with and without radial stresses, superimposed on API limits. Note change in shape of ellipse by considering the radial stresses.
 
-![Envelope with radial stresses](\vme\vme_2.svg)
+![Envelope with radial stresses](\images\vme_2.svg)
 
  
 # Collapse – API Derivation
 API 5C3 is the industry-standard treatment of pipe collapse under multiple types of loading. Four regimes were identified and curve fit against. First corrections for temperature and tension need to be applied, then the constants are calculated. Using the constants the collapse regime can be find, whether Yield, Plastic, Transition, or Elastic, driven by the D/t ratio of the pipe. Once the adjust yield stress, constants, and regime is found, the collapse pressure may be calculated. Collapse calculated this way has an inherent safety factor due to how the curve-fits were made and the long, field-proven history of the calculations, so having a high design factor is not necessary as compared to burst.
 
-![API Collapse](\vme\vme_3.svg)
+![API Collapse](\images\vme_3.svg)
 
 Corrections – use for transitional points, constants, and solutions
 - Temperature Correction		$Y_{p,\ \ Tadj}=Y_{p}(1-0.0003\ x\ \left(temperature-75\right))$
