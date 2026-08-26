@@ -1,7 +1,9 @@
 # Burst – Von Mises Derivation
 
 Von Mises Envelope for Tubulars
-$$Y_{p}=\sqrt{\frac{1}{2}\left[{\left({\sigma }_{z}-{\sigma }_{\theta }\right)}^{2}+{\left({\sigma }_{\theta }-{\sigma }_{r}\right)}^{2}+{\left({\sigma }_{r}-{\sigma }_{z}\right)}^{2}\right]+3{\tau }^{2}}$$
+$$
+Y_{p}=\sqrt{\frac{1}{2}\left[{\left({\sigma }_{z}-{\sigma }_{\theta }\right)}^{2}+{\left({\sigma }_{\theta }-{\sigma }_{r}\right)}^{2}+{\left({\sigma }_{r}-{\sigma }_{z}\right)}^{2}\right]+3{\tau }^{2}}
+$$
 
 Drop torque and expand			
 $$Y_{p}=\sqrt{{\sigma }_{z}^{2}+{\sigma }_{\theta }^{2}+{\sigma }_{r}^{2}-{\sigma }_{z}{\sigma }_{\theta }-{\sigma }_{\theta }{\sigma }_{r}-{\sigma }_{r}{\sigma }_{z}}$$
